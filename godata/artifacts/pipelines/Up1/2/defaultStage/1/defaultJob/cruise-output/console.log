@@ -1,0 +1,91 @@
+##|22:06:03.780 [go] Job Started: 2017-06-28 22:06:03 GMT
+##|22:06:03.780 
+pr|22:06:03.780 [go] Start to prepare Up1/2/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+pr|22:06:03.788 [go] Start to update materials.
+pr|22:06:03.788 
+pr|22:06:03.788 [go] Start updating files at revision 66d6927017afa3e3ed3c0c695da67e2733c709b6 from https://github.com/arvindsv/faketime.git
+pr|22:06:04.004 [GIT] Fetching changes
+pr|22:06:04.302 [GIT] Performing git gc
+pr|22:06:04.407 [GIT] Reset working directory pipelines/Up1
+pr|22:06:04.407 [GIT] Cleaning all unversioned files in working copy
+pr|22:06:04.616 [GIT] Cleaning submodule configurations in .git/config
+pr|22:06:04.720 [GIT] Updating working copy to revision 66d6927017afa3e3ed3c0c695da67e2733c709b6
+pr|22:06:04.725 HEAD is now at 66d6927 Reformat README for line length
+pr|22:06:04.827 [GIT] Removing modified files in submodules
+pr|22:06:04.952 [GIT] Cleaning all unversioned files in working copy
+pr|22:06:05.165 [go] Done.
+pr|22:06:05.165 
+pr|22:06:05.165 [go] overriding environment variable 'GO_SERVER_URL' with value 'https://172.17.0.2:8154/go'
+pr|22:06:05.165 [go] setting environment variable 'GO_TRIGGER_USER' to value 'anonymous'
+pr|22:06:05.165 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'Up1'
+pr|22:06:05.165 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '2'
+pr|22:06:05.165 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '2'
+pr|22:06:05.166 [go] setting environment variable 'GO_STAGE_NAME' to value 'defaultStage'
+pr|22:06:05.166 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|22:06:05.166 [go] setting environment variable 'GO_JOB_NAME' to value 'defaultJob'
+pr|22:06:05.166 [go] setting environment variable 'GO_REVISION' to value '66d6927017afa3e3ed3c0c695da67e2733c709b6'
+pr|22:06:05.166 [go] setting environment variable 'GO_TO_REVISION' to value '66d6927017afa3e3ed3c0c695da67e2733c709b6'
+pr|22:06:05.166 [go] setting environment variable 'GO_FROM_REVISION' to value '66d6927017afa3e3ed3c0c695da67e2733c709b6'
+pr|22:06:05.166 
+##|22:06:05.177 [go] Start to build Up1/2/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+!!|22:06:05.177 [go] Task: find .
+&1|22:06:05.181 .
+&1|22:06:05.182 ./test_mac.sh
+&1|22:06:05.182 ./test_linux_64.sh
+&1|22:06:05.182 ./test_linux.sh
+&1|22:06:05.182 ./lib
+&1|22:06:05.182 ./lib/mac
+&1|22:06:05.183 ./lib/mac/libfaketime.jnilib
+&1|22:06:05.183 ./README.md
+&1|22:06:05.183 ./.git
+&1|22:06:05.183 ./.git/index
+&1|22:06:05.183 ./.git/description
+&1|22:06:05.183 ./.git/logs
+&1|22:06:05.183 ./.git/logs/HEAD
+&1|22:06:05.183 ./.git/logs/refs
+&1|22:06:05.184 ./.git/logs/refs/remotes
+&1|22:06:05.184 ./.git/logs/refs/remotes/origin
+&1|22:06:05.184 ./.git/logs/refs/remotes/origin/HEAD
+&1|22:06:05.184 ./.git/logs/refs/heads
+&1|22:06:05.184 ./.git/logs/refs/heads/master
+&1|22:06:05.184 ./.git/info
+&1|22:06:05.184 ./.git/info/exclude
+&1|22:06:05.184 ./.git/packed-refs
+&1|22:06:05.184 ./.git/hooks
+&1|22:06:05.185 ./.git/hooks/post-update.sample
+&1|22:06:05.185 ./.git/hooks/prepare-commit-msg.sample
+&1|22:06:05.185 ./.git/hooks/pre-commit.sample
+&1|22:06:05.185 ./.git/hooks/pre-applypatch.sample
+&1|22:06:05.185 ./.git/hooks/pre-push.sample
+&1|22:06:05.185 ./.git/hooks/pre-rebase.sample
+&1|22:06:05.185 ./.git/hooks/update.sample
+&1|22:06:05.185 ./.git/hooks/pre-receive.sample
+&1|22:06:05.185 ./.git/hooks/commit-msg.sample
+&1|22:06:05.186 ./.git/hooks/applypatch-msg.sample
+&1|22:06:05.186 ./.git/FETCH_HEAD
+&1|22:06:05.186 ./.git/ORIG_HEAD
+&1|22:06:05.186 ./.git/HEAD
+&1|22:06:05.186 ./.git/objects
+&1|22:06:05.186 ./.git/objects/info
+&1|22:06:05.186 ./.git/objects/pack
+&1|22:06:05.187 ./.git/objects/pack/pack-512e18aec1b3b7e01053e2293666dacd72e15475.pack
+&1|22:06:05.187 ./.git/objects/pack/pack-512e18aec1b3b7e01053e2293666dacd72e15475.idx
+&1|22:06:05.187 ./.git/refs
+&1|22:06:05.187 ./.git/refs/tags
+&1|22:06:05.187 ./.git/refs/remotes
+&1|22:06:05.187 ./.git/refs/remotes/origin
+&1|22:06:05.187 ./.git/refs/remotes/origin/HEAD
+&1|22:06:05.187 ./.git/refs/heads
+&1|22:06:05.188 ./.git/refs/heads/master
+&1|22:06:05.188 ./.git/branches
+&1|22:06:05.188 ./.git/config
+&1|22:06:05.188 ./FakeTimeTest.java
+&1|22:06:05.188 ./.gitignore
+&1|22:06:05.188 ./src
+&1|22:06:05.189 ./src/FakeTimeAgent.c
+?0|22:06:05.282 [go] Task status: passed (104 ms)
+j0|22:06:05.294 [go] Current job status: passed
+##|22:06:05.298 [go] Start to create properties Up1/2/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+ar|22:06:05.298 [go] Start to upload Up1/2/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+ar|22:06:05.299 [go] Uploading artifacts from /go/pipelines/Up1/src to src
+ex|22:06:05.361 [go] Job completed Up1/2/defaultStage/1/defaultJob on cf09e90babf8 [/go]

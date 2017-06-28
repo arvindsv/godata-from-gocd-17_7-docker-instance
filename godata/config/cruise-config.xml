@@ -40,6 +40,8 @@
         </jobs>
       </stage>
     </pipeline>
+  </pipelines>
+  <pipelines group="group2">
     <pipeline name="Down1">
       <materials>
         <pipeline pipelineName="Up1" stageName="defaultStage" />

@@ -444,3 +444,68 @@ PipelineLabel: 1
 2017-06-28 21:26:33,356  INFO [qtp1160264930-24] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Completing] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
 2017-06-28 21:26:33,362  INFO [qtp1160264930-20] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status and result [Completed, Passed] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
 2017-06-28 21:26:33,374  INFO [qtp1160264930-20] Stage:219 - Stage is being completed by transition id: 18
+2017-06-28 22:05:24,386  INFO [qtp1160264930-20] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 22:05:35,054  INFO [qtp1160264930-33] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@68dbec8
+2017-06-28 22:05:35,056  INFO [qtp1160264930-33] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@68dbec8 by anonymous is being processed
+2017-06-28 22:05:35,075  INFO [qtp1160264930-33] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 22:05:35,179  INFO [qtp1160264930-33] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 22:05:35,182  INFO [qtp1160264930-33] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 22:05:35,184  INFO [qtp1160264930-33] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 22:05:35,186  INFO [qtp1160264930-33] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 22:05:35,188  INFO [qtp1160264930-33] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 22:05:37,856  INFO [qtp1160264930-22] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@a018d47
+2017-06-28 22:05:37,858  INFO [qtp1160264930-22] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@a018d47 by anonymous is being processed
+2017-06-28 22:05:37,882  INFO [qtp1160264930-22] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 22:05:38,016  INFO [qtp1160264930-22] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 22:05:38,020  INFO [qtp1160264930-22] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 22:05:38,023  INFO [qtp1160264930-22] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 22:05:38,024  INFO [qtp1160264930-22] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 22:05:38,026  INFO [qtp1160264930-22] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 22:05:43,192  INFO [qtp1160264930-31] PipelineScheduler:137 - [Pipeline Schedule] [Requested] Manual trigger of pipeline 'Up1' requested by anonymous
+2017-06-28 22:05:43,194  INFO [qtp1160264930-31] PipelineScheduler:143 - [Pipeline Schedule] [Accepted] Manual trigger of pipeline 'Up1' accepted for user anonymous
+2017-06-28 22:05:43,204  INFO [qtp1160264930-31] PipelineScheduler:146 - [Pipeline Schedule] [Processed] Manual trigger of pipeline 'Up1' processed with result 'com.thoughtworks.go.serverhealth.ServerHealthState@2131e7b1[healthStateLevel=OK,type=<HealthStateType DATABASE_DISK_FULL LogScope[GLOBAL, scope=GLOBAL]>,message=,description=,expiryTime=<null>,timestamp=Wed Jun 28 22:05:43 GMT 2017]'
+2017-06-28 22:05:44,469  INFO [consumeBuildCausesThread] ScheduleService:161 - [Pipeline Schedule] Scheduling pipeline Up1 with build cause [ManualForcedBuildCause: Forced by anonymous]
+2017-06-28 22:05:44,477  INFO [consumeBuildCausesThread] PipelineRepository:85 - Start updating pipeline timeline
+2017-06-28 22:05:44,489  INFO [consumeBuildCausesThread] PipelineRepository:91 - Pipeline timeline updated
+2017-06-28 22:05:53,744  INFO [68@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[Up1, 2, 2, defaultStage, 1, defaultJob, 4]] to agent [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67]]
+2017-06-28 22:06:03,783  INFO [qtp1160264930-32] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Preparing] for [Build [Up1/2/defaultStage/1/defaultJob/4]]
+2017-06-28 22:06:05,172  INFO [qtp1160264930-25] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Building] for [Build [Up1/2/defaultStage/1/defaultJob/4]]
+2017-06-28 22:06:05,285  INFO [qtp1160264930-28] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting result [Passed] for [Build [Up1/2/defaultStage/1/defaultJob/4]]
+2017-06-28 22:06:05,296  INFO [qtp1160264930-26] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Completing] for [Build [Up1/2/defaultStage/1/defaultJob/4]]
+2017-06-28 22:06:05,331  INFO [qtp1160264930-24] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status and result [Completed, Passed] for [Build [Up1/2/defaultStage/1/defaultJob/4]]
+2017-06-28 22:06:05,339  INFO [qtp1160264930-24] Stage:219 - Stage is being completed by transition id: 24
+2017-06-28 22:06:05,361  INFO [106@MessageListener for MaterialUpdateListener] MaterialRepository:439 - Saving revision [DependencyMaterial{pipelineName='Up1', stageName='defaultStage'}, DependencyMaterialRevision[Up1/2/defaultStage/1] [pipelineLabel = 2];[Last Modified: 2017/06/28 22:06:05
+Revision: Up1/2/defaultStage/1
+UserName: Unknown
+EmailAddress: null
+Comment: Unknown
+PipelineLabel: 2
+]]
+2017-06-28 22:06:15,511  INFO [consumeBuildCausesThread] ScheduleService:161 - [Pipeline Schedule] Scheduling pipeline Down1 with build cause [ModificationBuildCause: triggered by Up1/2/defaultStage/1]
+2017-06-28 22:06:15,541  INFO [consumeBuildCausesThread] PipelineRepository:85 - Start updating pipeline timeline
+2017-06-28 22:06:15,548  INFO [consumeBuildCausesThread] PipelineRepository:91 - Pipeline timeline updated
+2017-06-28 22:06:23,746  INFO [68@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[Down1, 2, 2, defaultStage, 1, defaultJob, 5]] to agent [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67]]
+2017-06-28 22:06:33,777  INFO [qtp1160264930-23] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Preparing] for [Build [Down1/2/defaultStage/1/defaultJob/5]]
+2017-06-28 22:06:33,788  INFO [qtp1160264930-33] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Building] for [Build [Down1/2/defaultStage/1/defaultJob/5]]
+2017-06-28 22:06:33,802  INFO [qtp1160264930-27] ArtifactsController:273 - [Artifact Download] Trying to resolve 'cruise-output/md5.checksum' for 'Up1/2/defaultStage/1/defaultJob'
+2017-06-28 22:06:33,811  INFO [qtp1160264930-27] ArtifactsController:291 - [Artifact Download] Successfully resolved 'cruise-output/md5.checksum' for 'Up1/2/defaultStage/1/defaultJob'. It took: 8ms
+2017-06-28 22:06:33,811  INFO [qtp1160264930-27] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/pipelines/Up1/2/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false
+2017-06-28 22:06:33,813  INFO [qtp1160264930-27] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/pipelines/Up1/2/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false. The time taken is: 1ms
+2017-06-28 22:06:33,829  INFO [qtp1160264930-30] ArtifactsController:273 - [Artifact Download] Trying to resolve 'src.zip' for 'Up1/2/defaultStage/1/defaultJob'
+2017-06-28 22:06:33,836  INFO [qtp1160264930-30] ArtifactsController:291 - [Artifact Download] Successfully resolved 'src.zip' for 'Up1/2/defaultStage/1/defaultJob'. It took: 6ms
+2017-06-28 22:06:38,849  INFO [qtp1160264930-26] ArtifactsController:273 - [Artifact Download] Trying to resolve 'src.zip' for 'Up1/2/defaultStage/1/defaultJob'
+2017-06-28 22:06:38,856  INFO [qtp1160264930-26] ArtifactsController:291 - [Artifact Download] Successfully resolved 'src.zip' for 'Up1/2/defaultStage/1/defaultJob'. It took: 7ms
+2017-06-28 22:06:38,857  INFO [qtp1160264930-26] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/cache/artifacts/pipelines/Up1/2/defaultStage/1/defaultJob/src.zip. ShouldZip? = false
+2017-06-28 22:06:38,860  INFO [qtp1160264930-26] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/cache/artifacts/pipelines/Up1/2/defaultStage/1/defaultJob/src.zip. ShouldZip? = false. The time taken is: 3ms
+2017-06-28 22:06:38,868  INFO [qtp1160264930-23] ArtifactsController:273 - [Artifact Download] Trying to resolve 'cruise-output/md5.checksum' for 'Up2/1/defaultStage/1/defaultJob'
+2017-06-28 22:06:38,875  INFO [qtp1160264930-23] ArtifactsController:291 - [Artifact Download] Successfully resolved 'cruise-output/md5.checksum' for 'Up2/1/defaultStage/1/defaultJob'. It took: 6ms
+2017-06-28 22:06:38,875  INFO [qtp1160264930-23] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false
+2017-06-28 22:06:38,877  INFO [qtp1160264930-23] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false. The time taken is: 1ms
+2017-06-28 22:06:38,888  INFO [qtp1160264930-20] ArtifactsController:273 - [Artifact Download] Trying to resolve 'bin.zip' for 'Up2/1/defaultStage/1/defaultJob'
+2017-06-28 22:06:38,895  INFO [qtp1160264930-20] ArtifactsController:291 - [Artifact Download] Successfully resolved 'bin.zip' for 'Up2/1/defaultStage/1/defaultJob'. It took: 6ms
+2017-06-28 22:06:38,895  INFO [qtp1160264930-20] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/cache/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/bin.zip. ShouldZip? = false
+2017-06-28 22:06:38,897  INFO [qtp1160264930-20] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/cache/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/bin.zip. ShouldZip? = false. The time taken is: 1ms
+2017-06-28 22:06:39,006  INFO [qtp1160264930-27] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting result [Passed] for [Build [Down1/2/defaultStage/1/defaultJob/5]]
+2017-06-28 22:06:39,016  INFO [qtp1160264930-32] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Completing] for [Build [Down1/2/defaultStage/1/defaultJob/5]]
+2017-06-28 22:06:39,021  INFO [qtp1160264930-30] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status and result [Completed, Passed] for [Build [Down1/2/defaultStage/1/defaultJob/5]]
+2017-06-28 22:06:39,029  INFO [qtp1160264930-30] Stage:219 - Stage is being completed by transition id: 30
