@@ -1,0 +1,39 @@
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/invalid-xml-plugin.jar=c16cce4ccff1f0f57916aaa4b7b152a5
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/plugin-common.jar=951c91d96597df71ebc98e3de9af9fbb
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/plugin-with-invalid-id.jar=b70d0ee32f9f488fdbb3a43be29de384
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/plugin-with-multiple-load-methods.jar=c2f3e95eae8eb8dd49de737504c529b8
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-curl-plugin.jar=a6d07763e6b046aab843c80328241439
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-donothing-plugin.jar=b080ff31f2009c43f54b5fa8e72a7d60
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-notification-plugin.jar=653471fb1a00b9ed504e6d5272e9ec86
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-scm-plugin.jar=15dd945031b21b151330aa776ab3cc46
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-valid-innerclass-plugin.jar=7b896db3532e99fcbd75d04b07c06c85
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-valid-staticclass-plugin.jar=5a7f2a78cd6b313c3a435f792a32383b
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-valid-subclass-plugin.jar=8d0eb7f4a0f7cce37a347f7aee9adb4a
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/test-with-some-plugin-xml-values.jar=cb61dc7a69ca7be6a0b10ab641c39bad
+#
+#Tue Jun 27 23:32:33 PDT 2017
+go-plugins-dist/yum-repo-exec-poller.jar=d972231b5a553fbf14f0939342257a59

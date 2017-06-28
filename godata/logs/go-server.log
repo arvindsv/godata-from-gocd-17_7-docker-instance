@@ -1,0 +1,446 @@
+2017-06-28 21:17:02,996  INFO [main] GoSslSocketConnector:76 - Included ciphers: null
+2017-06-28 21:17:02,998  INFO [main] GoSslSocketConnector:77 - Excluded ciphers: null
+2017-06-28 21:17:02,999  INFO [main] GoSslSocketConnector:78 - Included protocols: null
+2017-06-28 21:17:02,999  INFO [main] GoSslSocketConnector:79 - Excluded protocols: null
+2017-06-28 21:17:03,000  INFO [main] GoSslSocketConnector:80 - Renegotiation Allowed: true
+2017-06-28 21:17:03,153  INFO [main] Jetty9Server:177 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2017-06-28 21:17:03,226  INFO [main] GoServer:97 - Including addons: 
+2017-06-28 21:17:07,811  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-06-28 21:17:07,814  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-06-28 21:17:07,819  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@58b67519. This might take a while depending on the size of the database.
+2017-06-28 21:17:07,910  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:08,163  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:08,165  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:08,293  INFO [main] H2EventListener:34 - Database is opened
+2017-06-28 21:17:08,306  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:08,577  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:08,659  INFO [main] Migration_86:93 - migrating 0 rows
+2017-06-28 21:17:09,208  INFO [main] DbDeployMigration:63 - Database upgraded
+2017-06-28 21:17:09,209  INFO [main] H2EventListener:77 - Closing database
+2017-06-28 21:17:09,424  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-06-28 21:17:09,424  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-06-28 21:17:10,206  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:10,298  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:10,300  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:10,315  INFO [main] H2EventListener:34 - Database is opened
+2017-06-28 21:17:10,376  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:10,515  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2017-06-28 21:17:10,550  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@2cd62003.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1498684630550.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-06-28 21:17:10,571  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2017-06-28 21:17:10,616  INFO [main] CipherProvider:64 - Cipher not found. Creating a new cipher file
+2017-06-28 21:17:10,638  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2017-06-28 21:17:10,697  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2017-06-28 21:17:10,713  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2017-06-28 21:17:10,729  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2017-06-28 21:17:10,789  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2017-06-28 21:17:10,792  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2017-06-28 21:17:11,141  INFO [main] ServerVersion:38 - [Startup] Go Version: 17.6.0 (5142-be1ff52e07d80323fcc615864a64f3afe83b7016)
+2017-06-28 21:17:11,149  INFO [main] ServerVersion:39 - [Startup] PID: 33
+2017-06-28 21:17:11,150  INFO [main] ServerVersion:40 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64, java.vm.version=25.131-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/go-working-dir, jetty.xml.file.name=jetty.xml, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, jruby.ji.objectProxyCache=false, os.name=Linux, cruise.config.dir=/go-working-dir/config, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, jetty.home=/go-working-dir, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.9.27-moby, cruise.server.port=8153, user.home=/home/go, user.timezone=GMT, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/go-server/go.jar, user.name=go, jetty.base=/go-working-dir, cruise.config.file=/go-working-dir/config/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.8, sun.java.command=/go-server/go.jar, java.home=/usr/lib/jvm/java-1.8-openjdk/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8-openjdk/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2017-06-28 21:17:11,151  INFO [main] ServerVersion:41 - [Startup] Environment Variables: {PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, no_proxy=*.local, 169.254/16, STDOUT_LOG_FILE=/go-working-dir/logs/go-server.out.log, OLDPWD=/, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.utf8, GO_CONFIG_DIR=/go-working-dir/config, HOSTNAME=c9dc9838927c, LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64, SERVER_WORK_DIR=/go-working-dir, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, PWD=/go-working-dir, HOME=/home/go, SHLVL=0}
+2017-06-28 21:17:26,203  INFO [main] GoSslSocketConnector:76 - Included ciphers: null
+2017-06-28 21:17:26,208  INFO [main] GoSslSocketConnector:77 - Excluded ciphers: null
+2017-06-28 21:17:26,210  INFO [main] GoSslSocketConnector:78 - Included protocols: null
+2017-06-28 21:17:26,212  INFO [main] GoSslSocketConnector:79 - Excluded protocols: null
+2017-06-28 21:17:26,212  INFO [main] GoSslSocketConnector:80 - Renegotiation Allowed: true
+2017-06-28 21:17:26,441  INFO [main] Jetty9Server:177 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2017-06-28 21:17:26,522  INFO [main] GoServer:97 - Including addons: 
+2017-06-28 21:17:30,935  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-06-28 21:17:30,938  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-06-28 21:17:30,943  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@67110f71. This might take a while depending on the size of the database.
+2017-06-28 21:17:31,054  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:34,147  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:34,148  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:34,253  INFO [main] H2EventListener:34 - Database is opened
+2017-06-28 21:17:34,262  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:34,295  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:34,299  INFO [main] DbDeployMigration:63 - Database upgraded
+2017-06-28 21:17:34,300  INFO [main] H2EventListener:77 - Closing database
+2017-06-28 21:17:34,321  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-06-28 21:17:34,322  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-06-28 21:17:35,050  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:35,128  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:35,129  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-06-28 21:17:35,155  INFO [main] H2EventListener:34 - Database is opened
+2017-06-28 21:17:35,243  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:17:35,341  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2017-06-28 21:17:35,368  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@26fb4d06.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1498684655368.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-06-28 21:17:35,391  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2017-06-28 21:17:35,440  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2017-06-28 21:17:35,586  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2017-06-28 21:17:35,603  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2017-06-28 21:17:35,621  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2017-06-28 21:17:35,685  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2017-06-28 21:17:35,687  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2017-06-28 21:17:36,081  INFO [main] ServerVersion:38 - [Startup] Go Version: 17.7.0 (5147-53fdb1b15184f93966059a42429bf9ed0bfdee59)
+2017-06-28 21:17:36,091  INFO [main] ServerVersion:39 - [Startup] PID: 22
+2017-06-28 21:17:36,092  INFO [main] ServerVersion:40 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64, java.vm.version=25.131-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/go-working-dir, jetty.xml.file.name=jetty.xml, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, jruby.ji.objectProxyCache=false, os.name=Linux, cruise.config.dir=/go-working-dir/config, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, jetty.home=/go-working-dir, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.9.27-moby, cruise.server.port=8153, user.home=/home/go, user.timezone=GMT, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/go-server/go.jar, user.name=go, jetty.base=/go-working-dir, cruise.config.file=/go-working-dir/config/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.8, sun.java.command=/go-server/go.jar, java.home=/usr/lib/jvm/java-1.8-openjdk/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8-openjdk/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2017-06-28 21:17:36,095  INFO [main] ServerVersion:41 - [Startup] Environment Variables: {PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, no_proxy=*.local, 169.254/16, STDOUT_LOG_FILE=/go-working-dir/logs/go-server.out.log, OLDPWD=/, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.utf8, GO_CONFIG_DIR=/go-working-dir/config, HOSTNAME=b0d4efa78db6, LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64, SERVER_WORK_DIR=/go-working-dir, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, PWD=/go-working-dir, HOME=/home/go, SHLVL=0}
+2017-06-28 21:17:43,635  INFO [main] ConfigRepository:225 - Upgrading config file from version 81 to version 93
+2017-06-28 21:17:43,911 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : yum
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-06-28 21:17:44,228 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : cd.go.authentication.ldap
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.ldap' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-06-28 21:17:44,299  INFO [main] ConfigRepository:234 - Finished upgrading config file
+2017-06-28 21:17:44,300  INFO [main] GoConfigMigrator:105 - [Config Save] Starting Config Save post upgrade using FullConfigSaveNormalFlow
+2017-06-28 21:17:44,520 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : cd.go.authentication.passwordfile
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.passwordfile' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-06-28 21:17:44,622 ERROR [main] ConfigRepository:191 - [CONFIG REPOSITORY] Could not fetch latest commit id
+org.eclipse.jgit.api.errors.NoHeadException: No HEAD exists and no explicit starting revision was specified
+	at org.eclipse.jgit.api.LogCommand.call(LogCommand.java:153)
+	at com.thoughtworks.go.service.ConfigRepository.revisions(ConfigRepository.java:137)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevCommit(ConfigRepository.java:189)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:176)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.doLocked(ConfigRepository.java:127)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevision(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.checkin(ConfigRepository.java:107)
+	at com.thoughtworks.go.config.FullConfigSaveFlow.checkinToConfigRepo(FullConfigSaveFlow.java:92)
+	at com.thoughtworks.go.config.FullConfigSaveNormalFlow.execute(FullConfigSaveNormalFlow.java:66)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgradeConfigFile(GoConfigMigrator.java:109)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgrade(GoConfigMigrator.java:95)
+	at com.thoughtworks.go.config.GoConfigMigrator.migrate(GoConfigMigrator.java:74)
+	at com.thoughtworks.go.config.CachedGoConfig.upgradeConfig(CachedGoConfig.java:143)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:105)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:475)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.thoughtworks.go.server.Jetty9Server.start(Jetty9Server.java:93)
+	at com.thoughtworks.go.server.GoServer.startServer(GoServer.java:71)
+	at com.thoughtworks.go.server.GoServer.go(GoServer.java:63)
+	at com.thoughtworks.go.server.util.GoLauncher.main(GoLauncher.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.simontuffs.onejar.Boot.run(Boot.java:306)
+	at com.simontuffs.onejar.Boot.main(Boot.java:159)
+2017-06-28 21:17:44,623  INFO [main] ConfigRepository:178 - [CONFIG REPOSITORY] Unable retrieve current cruise config revision
+org.eclipse.jgit.api.errors.NoHeadException: No HEAD exists and no explicit starting revision was specified
+	at org.eclipse.jgit.api.LogCommand.call(LogCommand.java:153)
+	at com.thoughtworks.go.service.ConfigRepository.revisions(ConfigRepository.java:137)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevCommit(ConfigRepository.java:189)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:176)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.doLocked(ConfigRepository.java:127)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevision(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.checkin(ConfigRepository.java:107)
+	at com.thoughtworks.go.config.FullConfigSaveFlow.checkinToConfigRepo(FullConfigSaveFlow.java:92)
+	at com.thoughtworks.go.config.FullConfigSaveNormalFlow.execute(FullConfigSaveNormalFlow.java:66)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgradeConfigFile(GoConfigMigrator.java:109)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgrade(GoConfigMigrator.java:95)
+	at com.thoughtworks.go.config.GoConfigMigrator.migrate(GoConfigMigrator.java:74)
+	at com.thoughtworks.go.config.CachedGoConfig.upgradeConfig(CachedGoConfig.java:143)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:105)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:475)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.thoughtworks.go.server.Jetty9Server.start(Jetty9Server.java:93)
+	at com.thoughtworks.go.server.GoServer.startServer(GoServer.java:71)
+	at com.thoughtworks.go.server.GoServer.go(GoServer.java:63)
+	at com.thoughtworks.go.server.util.GoLauncher.main(GoLauncher.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.simontuffs.onejar.Boot.run(Boot.java:306)
+	at com.simontuffs.onejar.Boot.main(Boot.java:159)
+2017-06-28 21:17:45,125  INFO [main] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:17:45,126  INFO [main] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:17:45,236  INFO [main] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:17:45,274  INFO [main] PipelineRepository:85 - Start updating pipeline timeline
+2017-06-28 21:17:45,304  INFO [main] PipelineRepository:91 - Pipeline timeline updated
+2017-06-28 21:17:45,304  INFO [main] PipelineSqlMapDao:98 - Loading active pipelines into memory.
+2017-06-28 21:17:45,305  INFO [main] PipelineSqlMapDao:394 - Retriving Active Pipelines from Database...
+2017-06-28 21:17:45,338  INFO [main] PipelineSqlMapDao:100 - Done loading active pipelines into memory.
+2017-06-28 21:17:45,799  INFO [main] ConsoleActivityMonitor:67 - Found '0' building jobs. Added them with '2017-06-28T21:17:45.733Z' as the last heard time
+2017-06-28 21:17:45,863  INFO [main] RailsAssetsService:66 - Found rails assets manifest file named .sprockets-manifest-1162eac70a9fe8297f9b76faaf26633d.json 
+2017-06-28 21:17:45,868  INFO [main] RailsAssetsService:70 - Successfully read rails assets manifest file located at /go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails.new/public/assets/.sprockets-manifest-1162eac70a9fe8297f9b76faaf26633d.json
+2017-06-28 21:18:00,382 FATAL [main] Rails:? - reached here
+2017-06-28 21:18:09,168  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:146 - Config file changed at 1498684665000
+2017-06-28 21:18:09,168  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:147 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2017-06-28 21:18:09,237  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:18:09,242  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:18:09,243  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:18:24,754  WARN [qtp1160264930-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-06-28 21:18:25,433  INFO [qtp1160264930-25] ServerVersionInfoManager:71 - [Go Update Check] Starting update check at: Wed Jun 28 21:18:25 GMT 2017
+2017-06-28 21:18:25,650  INFO [qtp1160264930-27] CachedCommandSnippets:57 - [Command Repository] Reloading command snippets.
+2017-06-28 21:18:26,092  INFO [qtp1160264930-28] ServerVersionInfoManager:86 - [Go Update Check] Update check done at: Wed Jun 28 21:18:26 GMT 2017, latest available version: 17.7.0-5147
+2017-06-28 21:19:14,199  INFO [qtp1160264930-29] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@264b015d
+2017-06-28 21:19:14,200  INFO [qtp1160264930-29] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@264b015d by anonymous is being processed
+2017-06-28 21:19:14,273  INFO [qtp1160264930-29] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:19:14,410  INFO [qtp1160264930-29] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:19:14,414  INFO [qtp1160264930-29] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:19:14,416  INFO [qtp1160264930-29] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:19:14,419  INFO [qtp1160264930-29] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:19:14,441  INFO [qtp1160264930-29] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 21:19:14,500  INFO [qtp1160264930-29] PipelinePauseService:79 - [Pipeline Pause] Pipeline [Up1] is paused by [com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous]] because [Under construction]
+2017-06-28 21:19:14,620  WARN [qtp1160264930-30] FeatureToggleRepository:68 - Toggles file, /go-working-dir/config/go.feature.toggles does not exist. Saying there are no toggles.
+2017-06-28 21:19:44,171  INFO [buildAssignmentServiceRefreshExecutorThread] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:19:45,780  INFO [89@MessageListener for MaterialUpdateListener] ScmMaterialUpdater:63 - [Material Update] Found '1' modifications for material 'GitMaterial{url=https://github.com/arvindsv/faketime.git, branch='master', submoduleFolder='null', shallowClone=false}' with flyweight '0aa41d38995ff65e435854d94480d95d46cf0405fcc311196a49e82d6c48b7d4' using working directory '/go-working-dir/pipelines/flyweight/577fbc13-3587-4d39-a683-257f340744f5'
+2017-06-28 21:19:48,940  INFO [qtp1160264930-26] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@5d9dcd7d
+2017-06-28 21:19:48,942  INFO [qtp1160264930-26] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@5d9dcd7d by anonymous is being processed
+2017-06-28 21:19:48,983  INFO [qtp1160264930-26] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:19:49,098  INFO [qtp1160264930-26] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:19:49,102  INFO [qtp1160264930-26] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:19:49,104  INFO [qtp1160264930-26] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:19:49,106  INFO [qtp1160264930-26] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:19:49,111  INFO [qtp1160264930-26] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 21:19:54,794  INFO [qtp1160264930-30] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:20:14,051  INFO [qtp1160264930-22] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:20:45,811  INFO [qtp1160264930-26] GoConfigDao:137 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.FullConfigUpdateCommand@6c338c85
+2017-06-28 21:20:45,812  INFO [qtp1160264930-26] GoConfigDao:140 - Config update request by anonymous is being processed
+2017-06-28 21:20:45,924  INFO [qtp1160264930-26] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:20:45,928  INFO [qtp1160264930-26] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:20:45,929  INFO [qtp1160264930-26] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:20:45,931  INFO [qtp1160264930-26] GoConfigDao:147 - Config update request by anonymous is completed
+2017-06-28 21:20:45,976  INFO [qtp1160264930-28] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:21:10,738  INFO [qtp1160264930-23] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@8013f3a
+2017-06-28 21:21:10,740  INFO [qtp1160264930-23] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@8013f3a by anonymous is being processed
+2017-06-28 21:21:10,760  INFO [qtp1160264930-23] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:21:10,882  INFO [qtp1160264930-23] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:21:10,886  INFO [qtp1160264930-23] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:21:10,890  INFO [qtp1160264930-23] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:21:10,898  INFO [qtp1160264930-23] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:21:10,904  INFO [qtp1160264930-23] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 21:21:10,934  INFO [qtp1160264930-23] PipelinePauseService:79 - [Pipeline Pause] Pipeline [Down1] is paused by [com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous]] because [Under construction]
+2017-06-28 21:21:14,165  INFO [82@MessageListener for ScheduleCheckListener] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:21:14,168  INFO [79@MessageListener for ScheduleCheckListener] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-06-28 21:21:15,236  INFO [90@MessageListener for MaterialUpdateListener] ScmMaterialUpdater:63 - [Material Update] Found '1' modifications for material 'GitMaterial{url=https://github.com/arvindsv/dotjs.git, branch='master', submoduleFolder='null', shallowClone=false}' with flyweight '75a94510cd571257d158a422012c653378a7dddbcd596c9ad05767f0529e7f5f' using working directory '/go-working-dir/pipelines/flyweight/51846593-a558-4a03-83fd-5acb8c733113'
+2017-06-28 21:21:23,327  INFO [qtp1160264930-29] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@12762723
+2017-06-28 21:21:23,329  INFO [qtp1160264930-29] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@12762723 by anonymous is being processed
+2017-06-28 21:21:23,367  INFO [qtp1160264930-29] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:21:23,529  INFO [qtp1160264930-29] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:21:23,533  INFO [qtp1160264930-29] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:21:23,536  INFO [qtp1160264930-29] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:21:23,539  INFO [qtp1160264930-29] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:21:23,543  INFO [qtp1160264930-29] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 21:21:24,371  INFO [consumeBuildCausesThread] ScheduleService:161 - [Pipeline Schedule] Scheduling pipeline Up2 with build cause [ModificationBuildCause: modified by Aravind SV <arvind.sv@gmail.com>]
+2017-06-28 21:21:24,424  INFO [consumeBuildCausesThread] PipelineRepository:85 - Start updating pipeline timeline
+2017-06-28 21:21:24,430  INFO [consumeBuildCausesThread] PipelineRepository:91 - Pipeline timeline updated
+2017-06-28 21:21:46,254  INFO [qtp1160264930-21] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@66fda394
+2017-06-28 21:21:46,257  INFO [qtp1160264930-21] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@66fda394 by anonymous is being processed
+2017-06-28 21:21:46,281  INFO [qtp1160264930-21] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:21:46,394  INFO [qtp1160264930-21] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:21:46,397  INFO [qtp1160264930-21] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:21:46,400  INFO [qtp1160264930-21] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:21:46,402  INFO [qtp1160264930-21] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:21:46,405  INFO [qtp1160264930-21] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 21:22:02,059  INFO [qtp1160264930-32] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@43e44fe1
+2017-06-28 21:22:02,061  INFO [qtp1160264930-32] GoConfigDao:114 - Config update request com.thoughtworks.go.config.update.UiBasedConfigUpdateCommand@43e44fe1 by anonymous is being processed
+2017-06-28 21:22:02,096  INFO [qtp1160264930-32] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:22:02,248  INFO [qtp1160264930-32] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:22:02,251  INFO [qtp1160264930-32] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:22:02,253  INFO [qtp1160264930-32] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:22:02,255  INFO [qtp1160264930-32] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:22:02,257  INFO [qtp1160264930-32] GoConfigDao:129 - Config update request by anonymous is completed
+2017-06-28 21:22:53,428  INFO [qtp1160264930-20] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:22:58,024  INFO [qtp1160264930-24] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:23:16,402  INFO [qtp1160264930-29] GoConfigDao:137 - Config update request by anonymous is in queue - com.thoughtworks.go.config.update.FullConfigUpdateCommand@487df88d
+2017-06-28 21:23:16,406  INFO [qtp1160264930-29] GoConfigDao:140 - Config update request by anonymous is being processed
+2017-06-28 21:23:16,526  INFO [qtp1160264930-29] CachedGoConfig:226 - About to notify config listeners
+2017-06-28 21:23:16,530  INFO [qtp1160264930-29] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-06-28 21:23:16,531  INFO [qtp1160264930-29] CachedGoConfig:234 - Finished notifying all listeners
+2017-06-28 21:23:16,533  INFO [qtp1160264930-29] GoConfigDao:147 - Config update request by anonymous is completed
+2017-06-28 21:23:16,589  INFO [qtp1160264930-32] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:24:48,682  INFO [qtp1160264930-30] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous] is in queue - com.thoughtworks.go.config.update.AgentsEntityConfigUpdateCommand@1ec99457
+2017-06-28 21:24:48,684  INFO [qtp1160264930-30] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous] is being processed
+2017-06-28 21:24:48,691  INFO [qtp1160264930-30] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:24:48,704  INFO [qtp1160264930-30] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:24:48,789  INFO [qtp1160264930-30] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-06-28 21:24:48,798  INFO [qtp1160264930-30] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-06-28 21:24:48,800  INFO [qtp1160264930-30] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous] is completed
+2017-06-28 21:24:52,605  INFO [qtp1160264930-20] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@7d1b998e[displayName=agent_6063d5e9-eb8b-4251-ba32-c85092fb7b67_172.17.0.3_cf09e90babf8,username=agent_6063d5e9-eb8b-4251-ba32-c85092fb7b67_172.17.0.3_cf09e90babf8] is in queue - com.thoughtworks.go.config.update.AgentsUpdateCommand@5328fec6
+2017-06-28 21:24:52,606  INFO [qtp1160264930-20] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@7d1b998e[displayName=agent_6063d5e9-eb8b-4251-ba32-c85092fb7b67_172.17.0.3_cf09e90babf8,username=agent_6063d5e9-eb8b-4251-ba32-c85092fb7b67_172.17.0.3_cf09e90babf8] is being processed
+2017-06-28 21:24:52,608  INFO [qtp1160264930-20] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-06-28 21:24:52,641  INFO [qtp1160264930-20] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:24:52,675  INFO [qtp1160264930-20] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-06-28 21:24:52,675  INFO [qtp1160264930-20] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-06-28 21:24:52,676  INFO [qtp1160264930-20] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@7d1b998e[displayName=agent_6063d5e9-eb8b-4251-ba32-c85092fb7b67_172.17.0.3_cf09e90babf8,username=agent_6063d5e9-eb8b-4251-ba32-c85092fb7b67_172.17.0.3_cf09e90babf8] is completed
+2017-06-28 21:24:52,889  INFO [qtp1160264930-28] BuildRepositoryRemoteImpl:133 - [Agent Cookie] Agent [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67]] at location [/go] asked for a new cookie, assigned [49cd29ce-bf9e-4ddd-9177-50752b95b98e]
+2017-06-28 21:24:52,985  INFO [68@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[Up2, 1, 1, defaultStage, 1, defaultJob, 1]] to agent [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67]]
+2017-06-28 21:25:03,091  INFO [qtp1160264930-21] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Preparing] for [Build [Up2/1/defaultStage/1/defaultJob/1]]
+2017-06-28 21:25:05,299  INFO [qtp1160264930-31] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Building] for [Build [Up2/1/defaultStage/1/defaultJob/1]]
+2017-06-28 21:25:05,449  INFO [qtp1160264930-29] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting result [Passed] for [Build [Up2/1/defaultStage/1/defaultJob/1]]
+2017-06-28 21:25:05,482  INFO [qtp1160264930-27] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Completing] for [Build [Up2/1/defaultStage/1/defaultJob/1]]
+2017-06-28 21:25:05,597  INFO [qtp1160264930-22] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status and result [Completed, Passed] for [Build [Up2/1/defaultStage/1/defaultJob/1]]
+2017-06-28 21:25:05,639  INFO [qtp1160264930-22] Stage:219 - Stage is being completed by transition id: 6
+2017-06-28 21:25:05,705  INFO [107@MessageListener for MaterialUpdateListener] MaterialRepository:439 - Saving revision [DependencyMaterial{pipelineName='Up2', stageName='defaultStage'}, DependencyMaterialRevision[Up2/1/defaultStage/1] [pipelineLabel = 1];[Last Modified: 2017/06/28 21:25:05
+Revision: Up2/1/defaultStage/1
+UserName: Unknown
+EmailAddress: null
+Comment: Unknown
+PipelineLabel: 1
+]]
+2017-06-28 21:25:24,595  INFO [qtp1160264930-25] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-06-28 21:25:29,042  INFO [qtp1160264930-30] PipelinePauseService:123 - [Pipeline Unpause] Pipeline [Up1] is unpaused by [com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous]]
+2017-06-28 21:25:30,039  INFO [qtp1160264930-26] PipelinePauseService:123 - [Pipeline Unpause] Pipeline [Down1] is unpaused by [com.thoughtworks.go.server.domain.Username@5ad4c95e[displayName=anonymous,username=anonymous]]
+2017-06-28 21:25:34,690  INFO [consumeBuildCausesThread] ScheduleService:161 - [Pipeline Schedule] Scheduling pipeline Up1 with build cause [ModificationBuildCause: modified by Aravind SV <arvind.sv@gmail.com>]
+2017-06-28 21:25:34,702  INFO [consumeBuildCausesThread] PipelineRepository:85 - Start updating pipeline timeline
+2017-06-28 21:25:34,705  INFO [consumeBuildCausesThread] PipelineRepository:91 - Pipeline timeline updated
+2017-06-28 21:25:42,975  INFO [68@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[Up1, 1, 1, defaultStage, 1, defaultJob, 2]] to agent [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67]]
+2017-06-28 21:25:52,993  INFO [qtp1160264930-26] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Preparing] for [Build [Up1/1/defaultStage/1/defaultJob/2]]
+2017-06-28 21:25:55,135  INFO [qtp1160264930-29] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Building] for [Build [Up1/1/defaultStage/1/defaultJob/2]]
+2017-06-28 21:25:55,256  INFO [qtp1160264930-33] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting result [Passed] for [Build [Up1/1/defaultStage/1/defaultJob/2]]
+2017-06-28 21:25:55,270  INFO [qtp1160264930-27] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Completing] for [Build [Up1/1/defaultStage/1/defaultJob/2]]
+2017-06-28 21:25:55,353  INFO [qtp1160264930-30] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status and result [Completed, Passed] for [Build [Up1/1/defaultStage/1/defaultJob/2]]
+2017-06-28 21:25:55,380  INFO [qtp1160264930-30] Stage:219 - Stage is being completed by transition id: 12
+2017-06-28 21:25:55,406  INFO [105@MessageListener for MaterialUpdateListener] MaterialRepository:439 - Saving revision [DependencyMaterial{pipelineName='Up1', stageName='defaultStage'}, DependencyMaterialRevision[Up1/1/defaultStage/1] [pipelineLabel = 1];[Last Modified: 2017/06/28 21:25:55
+Revision: Up1/1/defaultStage/1
+UserName: Unknown
+EmailAddress: null
+Comment: Unknown
+PipelineLabel: 1
+]]
+2017-06-28 21:26:04,735  INFO [consumeBuildCausesThread] ScheduleService:161 - [Pipeline Schedule] Scheduling pipeline Down1 with build cause [ModificationBuildCause: triggered by Up1/1/defaultStage/1]
+2017-06-28 21:26:04,747  INFO [consumeBuildCausesThread] PipelineRepository:85 - Start updating pipeline timeline
+2017-06-28 21:26:04,754  INFO [consumeBuildCausesThread] PipelineRepository:91 - Pipeline timeline updated
+2017-06-28 21:26:12,968  INFO [68@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[Down1, 1, 1, defaultStage, 1, defaultJob, 3]] to agent [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67]]
+2017-06-28 21:26:22,986  INFO [qtp1160264930-31] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Preparing] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
+2017-06-28 21:26:23,014  INFO [qtp1160264930-23] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Building] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
+2017-06-28 21:26:23,034  INFO [qtp1160264930-27] ArtifactsController:273 - [Artifact Download] Trying to resolve 'cruise-output/md5.checksum' for 'Up1/1/defaultStage/1/defaultJob'
+2017-06-28 21:26:23,049  INFO [qtp1160264930-27] ArtifactsController:291 - [Artifact Download] Successfully resolved 'cruise-output/md5.checksum' for 'Up1/1/defaultStage/1/defaultJob'. It took: 14ms
+2017-06-28 21:26:23,050  INFO [qtp1160264930-27] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/pipelines/Up1/1/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false
+2017-06-28 21:26:23,054  INFO [qtp1160264930-27] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/pipelines/Up1/1/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false. The time taken is: 3ms
+2017-06-28 21:26:23,064  INFO [qtp1160264930-32] ArtifactsController:273 - [Artifact Download] Trying to resolve 'src.zip' for 'Up1/1/defaultStage/1/defaultJob'
+2017-06-28 21:26:23,075  INFO [qtp1160264930-32] ArtifactsController:291 - [Artifact Download] Successfully resolved 'src.zip' for 'Up1/1/defaultStage/1/defaultJob'. It took: 10ms
+2017-06-28 21:26:28,091  INFO [qtp1160264930-31] ArtifactsController:273 - [Artifact Download] Trying to resolve 'src.zip' for 'Up1/1/defaultStage/1/defaultJob'
+2017-06-28 21:26:28,100  INFO [qtp1160264930-31] ArtifactsController:291 - [Artifact Download] Successfully resolved 'src.zip' for 'Up1/1/defaultStage/1/defaultJob'. It took: 8ms
+2017-06-28 21:26:28,100  INFO [qtp1160264930-31] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/cache/artifacts/pipelines/Up1/1/defaultStage/1/defaultJob/src.zip. ShouldZip? = false
+2017-06-28 21:26:28,104  INFO [qtp1160264930-31] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/cache/artifacts/pipelines/Up1/1/defaultStage/1/defaultJob/src.zip. ShouldZip? = false. The time taken is: 3ms
+2017-06-28 21:26:28,120  INFO [qtp1160264930-24] ArtifactsController:273 - [Artifact Download] Trying to resolve 'cruise-output/md5.checksum' for 'Up2/1/defaultStage/1/defaultJob'
+2017-06-28 21:26:28,142  INFO [qtp1160264930-24] ArtifactsController:291 - [Artifact Download] Successfully resolved 'cruise-output/md5.checksum' for 'Up2/1/defaultStage/1/defaultJob'. It took: 21ms
+2017-06-28 21:26:28,143  INFO [qtp1160264930-24] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false
+2017-06-28 21:26:28,147  INFO [qtp1160264930-24] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/cruise-output/md5.checksum. ShouldZip? = false. The time taken is: 3ms
+2017-06-28 21:26:28,181  INFO [qtp1160264930-27] ArtifactsController:273 - [Artifact Download] Trying to resolve 'bin.zip' for 'Up2/1/defaultStage/1/defaultJob'
+2017-06-28 21:26:28,188  INFO [qtp1160264930-27] ArtifactsController:291 - [Artifact Download] Successfully resolved 'bin.zip' for 'Up2/1/defaultStage/1/defaultJob'. It took: 6ms
+2017-06-28 21:26:33,205  INFO [qtp1160264930-29] ArtifactsController:273 - [Artifact Download] Trying to resolve 'bin.zip' for 'Up2/1/defaultStage/1/defaultJob'
+2017-06-28 21:26:33,213  INFO [qtp1160264930-29] ArtifactsController:291 - [Artifact Download] Successfully resolved 'bin.zip' for 'Up2/1/defaultStage/1/defaultJob'. It took: 7ms
+2017-06-28 21:26:33,213  INFO [qtp1160264930-29] FileView:108 - [Artifact Download] About to download: /go-working-dir/artifacts/cache/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/bin.zip. ShouldZip? = false
+2017-06-28 21:26:33,217  INFO [qtp1160264930-29] FileView:114 - [Artifact Download] Finished downloading: /go-working-dir/artifacts/cache/artifacts/pipelines/Up2/1/defaultStage/1/defaultJob/bin.zip. ShouldZip? = false. The time taken is: 3ms
+2017-06-28 21:26:33,336  INFO [qtp1160264930-33] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting result [Passed] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
+2017-06-28 21:26:33,356  INFO [qtp1160264930-24] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status [Completing] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
+2017-06-28 21:26:33,362  INFO [qtp1160264930-20] BuildRepositoryRemoteImpl:106 - [Agent [cf09e90babf8, 172.17.0.3, 6063d5e9-eb8b-4251-ba32-c85092fb7b67, 49cd29ce-bf9e-4ddd-9177-50752b95b98e]] is reporting status and result [Completed, Passed] for [Build [Down1/1/defaultStage/1/defaultJob/3]]
+2017-06-28 21:26:33,374  INFO [qtp1160264930-20] Stage:219 - Stage is being completed by transition id: 18

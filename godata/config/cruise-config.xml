@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="93">
+  <server artifactsdir="artifacts" agentAutoRegisterKey="6c3ca345-26ff-4583-ab17-6c8283de2ba2" webhookSecret="005520ec-523a-4f04-8a11-132f7ae70252" commandRepositoryLocation="default" serverId="6eb1f8ff-a417-4322-a59e-4c065ae48b91" />
+  <pipelines group="defaultGroup">
+    <pipeline name="Up1">
+      <materials>
+        <git url="https://github.com/arvindsv/faketime.git" />
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <exec command="find">
+                <arg>.</arg>
+              </exec>
+            </tasks>
+            <artifacts>
+              <artifact src="src" dest="src" />
+            </artifacts>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+    <pipeline name="Up2">
+      <materials>
+        <git url="https://github.com/arvindsv/dotjs.git" />
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <exec command="find">
+                <arg>.</arg>
+              </exec>
+            </tasks>
+            <artifacts>
+              <artifact src="bin" dest="bin" />
+            </artifacts>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+    <pipeline name="Down1">
+      <materials>
+        <pipeline pipelineName="Up1" stageName="defaultStage" />
+        <pipeline pipelineName="Up2" stageName="defaultStage" materialName="Up2" />
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <fetchartifact pipeline="Up1" stage="defaultStage" job="defaultJob" srcdir="src" dest="src">
+                <runif status="passed" />
+              </fetchartifact>
+              <fetchartifact pipeline="Up2" stage="defaultStage" job="defaultJob" srcdir="bin" dest="bin">
+                <runif status="passed" />
+              </fetchartifact>
+              <exec command="find">
+                <arg>.</arg>
+              </exec>
+            </tasks>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+  </pipelines>
+  <agents>
+    <agent hostname="cf09e90babf8" ipaddress="172.17.0.3" uuid="6063d5e9-eb8b-4251-ba32-c85092fb7b67" />
+  </agents>
+</cruise>

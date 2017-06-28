@@ -1,0 +1,44 @@
+##|21:26:22.985 [go] Job Started: 2017-06-28 21:26:22 GMT
+##|21:26:22.985 
+pr|21:26:22.985 [go] Start to prepare Down1/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+pr|21:26:22.998 [go] Start to update materials.
+pr|21:26:22.998 
+pr|21:26:22.999 [go] overriding environment variable 'GO_SERVER_URL' with value 'https://172.17.0.2:8154/go'
+pr|21:26:22.999 [go] setting environment variable 'GO_TRIGGER_USER' to value 'changes'
+pr|21:26:22.999 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'Down1'
+pr|21:26:23.000 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '1'
+pr|21:26:23.000 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '1'
+pr|21:26:23.000 [go] setting environment variable 'GO_STAGE_NAME' to value 'defaultStage'
+pr|21:26:23.001 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|21:26:23.001 [go] setting environment variable 'GO_JOB_NAME' to value 'defaultJob'
+pr|21:26:23.005 [go] setting environment variable 'GO_DEPENDENCY_LABEL_UP1' to value '1'
+pr|21:26:23.005 [go] setting environment variable 'GO_DEPENDENCY_LOCATOR_UP1' to value 'Up1/1/defaultStage/1'
+pr|21:26:23.005 [go] setting environment variable 'GO_DEPENDENCY_LABEL_UP2' to value '1'
+pr|21:26:23.005 [go] setting environment variable 'GO_DEPENDENCY_LOCATOR_UP2' to value 'Up2/1/defaultStage/1'
+pr|21:26:23.005 
+##|21:26:23.023 [go] Start to build Down1/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+!!|21:26:23.023 [go] Task: fetch artifact [src] => [src] from [Up1/defaultStage/defaultJob]
+&1|21:26:23.023 [go] Fetching artifact [src] from [Up1/1/defaultStage/1/defaultJob]
+&1|21:26:28.108 [go] Saved artifact to [pipelines/Down1/src] after verifying the integrity of its contents.
+?0|21:26:28.108 [go] Task status: passed (5085 ms)
+!!|21:26:28.108 [go] Task: fetch artifact [bin] => [bin] from [Up2/defaultStage/defaultJob]
+&1|21:26:28.108 [go] Fetching artifact [bin] from [Up2/1/defaultStage/1/defaultJob]
+&1|21:26:33.219 [go] Saved artifact to [pipelines/Down1/bin] after verifying the integrity of its contents.
+?0|21:26:33.219 [go] Task status: passed (5111 ms)
+!!|21:26:33.219 [go] Task: find .
+&1|21:26:33.228 .
+&1|21:26:33.228 ./bin
+&1|21:26:33.229 ./bin/bin
+&1|21:26:33.229 ./bin/bin/bin
+&1|21:26:33.229 ./bin/bin/bin/djsd
+&1|21:26:33.229 ./bin/Up2_defaultStage_defaultJob_md5.checksum
+&1|21:26:33.229 ./src
+&1|21:26:33.229 ./src/Up1_defaultStage_defaultJob_md5.checksum
+&1|21:26:33.229 ./src/src
+&1|21:26:33.230 ./src/src/src
+&1|21:26:33.230 ./src/src/src/FakeTimeAgent.c
+?0|21:26:33.328 [go] Task status: passed (109 ms)
+j0|21:26:33.353 [go] Current job status: passed
+##|21:26:33.360 [go] Start to create properties Down1/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+ar|21:26:33.360 [go] Start to upload Down1/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+ex|21:26:33.416 [go] Job completed Down1/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]

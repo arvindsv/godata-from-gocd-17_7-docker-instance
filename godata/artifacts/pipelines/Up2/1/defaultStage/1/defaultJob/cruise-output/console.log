@@ -1,0 +1,96 @@
+##|21:25:03.086 [go] Job Started: 2017-06-28 21:25:03 GMT
+##|21:25:03.086 
+pr|21:25:03.086 [go] Start to prepare Up2/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+pr|21:25:03.107 [go] Start to update materials.
+pr|21:25:03.107 
+pr|21:25:03.110 [go] Start updating files at revision 0837838af7d923afea0afcd02c8e568be72c46d4 from https://github.com/arvindsv/dotjs.git
+pe|21:25:03.135 STDERR: Cloning into '/go/pipelines/Up2'...
+pr|21:25:04.101 [GIT] Fetching changes
+pr|21:25:04.402 [GIT] Performing git gc
+pr|21:25:04.507 [GIT] Reset working directory pipelines/Up2
+pr|21:25:04.507 [GIT] Cleaning all unversioned files in working copy
+pr|21:25:04.726 [GIT] Cleaning submodule configurations in .git/config
+pr|21:25:04.830 [GIT] Updating working copy to revision 0837838af7d923afea0afcd02c8e568be72c46d4
+pr|21:25:04.835 HEAD is now at 0837838 Moved the new extension to the right place.
+pr|21:25:04.939 [GIT] Removing modified files in submodules
+pr|21:25:05.070 [GIT] Cleaning all unversioned files in working copy
+pr|21:25:05.284 [go] Done.
+pr|21:25:05.284 
+pr|21:25:05.287 [go] overriding environment variable 'GO_SERVER_URL' with value 'https://172.17.0.2:8154/go'
+pr|21:25:05.288 [go] setting environment variable 'GO_TRIGGER_USER' to value 'changes'
+pr|21:25:05.288 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'Up2'
+pr|21:25:05.288 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '1'
+pr|21:25:05.288 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '1'
+pr|21:25:05.288 [go] setting environment variable 'GO_STAGE_NAME' to value 'defaultStage'
+pr|21:25:05.288 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|21:25:05.288 [go] setting environment variable 'GO_JOB_NAME' to value 'defaultJob'
+pr|21:25:05.288 [go] setting environment variable 'GO_REVISION' to value '0837838af7d923afea0afcd02c8e568be72c46d4'
+pr|21:25:05.288 [go] setting environment variable 'GO_TO_REVISION' to value '0837838af7d923afea0afcd02c8e568be72c46d4'
+pr|21:25:05.289 [go] setting environment variable 'GO_FROM_REVISION' to value '0837838af7d923afea0afcd02c8e568be72c46d4'
+pr|21:25:05.289 
+##|21:25:05.307 [go] Start to build Up2/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+!!|21:25:05.312 [go] Task: find .
+&1|21:25:05.318 .
+&1|21:25:05.319 ./HACKING
+&1|21:25:05.319 ./Rakefile
+&1|21:25:05.319 ./bin
+&1|21:25:05.319 ./bin/djsd
+&1|21:25:05.319 ./.git
+&1|21:25:05.320 ./.git/index
+&1|21:25:05.320 ./.git/description
+&1|21:25:05.320 ./.git/logs
+&1|21:25:05.320 ./.git/logs/HEAD
+&1|21:25:05.320 ./.git/logs/refs
+&1|21:25:05.320 ./.git/logs/refs/remotes
+&1|21:25:05.320 ./.git/logs/refs/remotes/origin
+&1|21:25:05.321 ./.git/logs/refs/remotes/origin/HEAD
+&1|21:25:05.321 ./.git/logs/refs/heads
+&1|21:25:05.321 ./.git/logs/refs/heads/master
+&1|21:25:05.321 ./.git/info
+&1|21:25:05.321 ./.git/info/exclude
+&1|21:25:05.321 ./.git/packed-refs
+&1|21:25:05.321 ./.git/hooks
+&1|21:25:05.322 ./.git/hooks/post-update.sample
+&1|21:25:05.322 ./.git/hooks/prepare-commit-msg.sample
+&1|21:25:05.322 ./.git/hooks/pre-commit.sample
+&1|21:25:05.322 ./.git/hooks/pre-applypatch.sample
+&1|21:25:05.322 ./.git/hooks/pre-push.sample
+&1|21:25:05.322 ./.git/hooks/pre-rebase.sample
+&1|21:25:05.322 ./.git/hooks/update.sample
+&1|21:25:05.323 ./.git/hooks/pre-receive.sample
+&1|21:25:05.323 ./.git/hooks/commit-msg.sample
+&1|21:25:05.323 ./.git/hooks/applypatch-msg.sample
+&1|21:25:05.323 ./.git/FETCH_HEAD
+&1|21:25:05.323 ./.git/ORIG_HEAD
+&1|21:25:05.323 ./.git/HEAD
+&1|21:25:05.324 ./.git/objects
+&1|21:25:05.324 ./.git/objects/info
+&1|21:25:05.324 ./.git/objects/pack
+&1|21:25:05.324 ./.git/objects/pack/pack-2790c508549fa90a4a60f8329bc526c3905c9a1b.pack
+&1|21:25:05.324 ./.git/objects/pack/pack-2790c508549fa90a4a60f8329bc526c3905c9a1b.idx
+&1|21:25:05.324 ./.git/refs
+&1|21:25:05.324 ./.git/refs/tags
+&1|21:25:05.325 ./.git/refs/remotes
+&1|21:25:05.325 ./.git/refs/remotes/origin
+&1|21:25:05.325 ./.git/refs/remotes/origin/HEAD
+&1|21:25:05.325 ./.git/refs/heads
+&1|21:25:05.325 ./.git/refs/heads/master
+&1|21:25:05.325 ./.git/branches
+&1|21:25:05.325 ./.git/config
+&1|21:25:05.326 ./ext
+&1|21:25:05.326 ./ext/icon128.png
+&1|21:25:05.326 ./ext/icon48.png
+&1|21:25:05.326 ./ext/dotjs.js
+&1|21:25:05.326 ./ext/jquery.js
+&1|21:25:05.326 ./ext/manifest.json
+&1|21:25:05.326 ./README.markdown
+&1|21:25:05.327 ./LICENSE
+&1|21:25:05.327 ./com.github.dotjs.plist
+&1|21:25:05.327 ./builds
+&1|21:25:05.327 ./builds/dotjs.crx
+?0|21:25:05.444 [go] Task status: passed (129 ms)
+j0|21:25:05.479 [go] Current job status: passed
+##|21:25:05.487 [go] Start to create properties Up2/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+ar|21:25:05.487 [go] Start to upload Up2/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
+ar|21:25:05.492 [go] Uploading artifacts from /go/pipelines/Up2/bin to bin
+ex|21:25:05.700 [go] Job completed Up2/1/defaultStage/1/defaultJob on cf09e90babf8 [/go]
